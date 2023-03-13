@@ -1,0 +1,19 @@
+.best-products {
+    background-image: url(../img/header-background.svg);
+    /* TODO: should be replaced with content's paddings */
+    min-height: 844px;
+    color: var(--header-color);
+}
+
+.header__figma-logo {
+    width: 186px ;
+}
+
+.header__burger-logo {
+    max-width: 26.67px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}

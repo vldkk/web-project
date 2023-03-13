@@ -11,24 +11,26 @@
       type="image/svg+xml"
       href="./img/favicon.svg"
     />
+    <link rel="stylesheet" href="./css/index.css">
   </head>
   <body>
     <section class="best-products">
       <header class="header">
         <nav class="header-menu">
-          <ul>
+         <!-- <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Product</a></li>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-          </ul>
+          </ul> -->
+          <img class="header__burger-logo" src="img/header-burger.svg" alt="Main Menu">
         </nav>
-        <img src="img/figma-logo.png" alt="Figma logo" />
+        <img class="header__figma-logo" src="img/figma-logo.svg" alt="Figma logo" />
       </header>
       <h1>The best products start with Figma</h1>
       <p>Most calendars are designed for teams.</p>
-      <a href="#">Try For Free</a>
+      <a href="#contact" class="header__button button">Try For Free</a>
     </section>
 
     <main>
@@ -175,7 +177,7 @@
           <a href="#">Order Now</a>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <h2 class="contact__title">Contact Us</h2>
         <p class="contact__main-text">Most calendars are designed for teams.</p>
         <p class="contact__text">Slate is designed for freelancers</p>

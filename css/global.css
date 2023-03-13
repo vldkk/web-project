@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #374754;
+    --header-color: #FFFFFF;
+    font-family: 'Graphik', sans-serif;
+    color: var(--main-color);
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("../fonts/GraphikRegular.otf") format("truetype");
+}
+img {
+    display: block;
+    width: 100%;
+}
